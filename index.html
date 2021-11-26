@@ -1,15 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet"
-    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css">
     <link href="stylesheet" href="assets/style.css">
-    <title>Document</title>
+    <title>Weather-Dashboard</title>
 </head>
+
 <body>
+    <header class="hero" style="align-content: center;">
+        <!--icon of a globe <span class="material-icons-outlined">language</span>-->
+        <h1 class="app-title">
+            Weather Dashboard</h1>
+        <p>
+            Search for a city to learn the weather!
+        </p>
+    </header>
+    <!--Button for search bar-->
+    <div class="container-fluid main">
+        <div class="row">
+            <div class="form col-lg-9" id="Search">
+                <input class="city" placeholder="enter city here"></input>
+                <button type="button" class="submit" id="searchButton">
+                    <span class="oi oi-magnifying-glass"></span>
+                </button>
+            </div>
+        </div>
+        <!--Button for clearing search history-->
+        <div>
+            <button type="button" class="submit" id="clearHistory"></button>
+        </div>
+        <!--card containing info-->
+
+        <div class="col-lg-9">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="card-header">
+                        <h3 id="currentDate">Is it Wednesday my dude?</h3>
+                        <p class="desc">weather image here </p>
+                    </div>
+                    <div class="card-body" id="infoTemplate">
+                    <!--backup header location if card header doesn't work-->
+                        
+                        <p class="temp">temp</p>
+                        <p class="windSpeed">windSpeed</p>
+                        <p class="humidity">humidity</p>
+                        <p class="uvIndex">uvIndex</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row" id="nextFiveDays">
+        <!--Went with col 2 since 5 days. Row should center-->
+        <!--Should be able to pass next 5 days through like with codeQuiz if api allows-->
+    <div class="col-md-2 forecast"></div>
+    <div class="col-md-2 forecast"></div>
+    <div class="col-md-2 forecast"></div>
+    <div class="col-md-2 forecast"></div>
+    <div class="col-md-2 forecast"></div>
+    </div>
 
 
 
@@ -17,18 +73,8 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-    
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src=./assets/script></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="assets/script.js"></script>
 </body>
+
 </html>

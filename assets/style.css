@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.citySearch{
+    text-align: center;
+    margin: 100px 0;
+
+}
+
+.citySearch[type="text"]{
+    height: 50px;
+    width: 600px;
+    background-color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    border:none;
+    border-radius:2px ;
+}
+.citySearch[type="submit"]{
+    height: 50px;
+    width: 100px;
+    background-color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    border:none;
+    border-radius:2px ;
+}
+
+.display{
+    text-align: center;
+}
