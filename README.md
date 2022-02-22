@@ -1,7 +1,7 @@
  
   Weather Dashboard
   
-
+![Screenshot(]https://github.com/Arcanaut/Weather-Dashboard/blob/main/assets/thumbnail.png)
   
   ## Table of Contents
   * [Description](#Description)
