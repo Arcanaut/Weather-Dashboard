@@ -24,8 +24,8 @@
     <!--Button for search bar-->
     <div class="container-fluid main">
         <div class="row">
-            <div class="form col-lg-9" id="Search">
-                <input class="city" placeholder="enter city here"></input>
+            <div class="form col-lg-9" id="search">
+                <input type="text" class="city" id="citySearch" placeholder="enter city here"></input>
                 <button type="button" class="submit" id="searchButton">
                     <span class="oi oi-magnifying-glass"></span>
                 </button>
@@ -38,7 +38,7 @@
         <!--card containing info-->
 
         <div class="col-lg-9">
-            <div class="row">
+            <div class="flex-row weatherCard">
                 <div class="col-lg-3">
                     <div class="card-header">
                         <h3 id="currentDate">Is it Wednesday my dude?</h3>
