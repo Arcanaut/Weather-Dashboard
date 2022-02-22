@@ -1,40 +1,18 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
+#header{
+    background-size: cover;
+    background-position-y: 40%;
+    color:white;
+    background-color:rgb(83, 83, 83);
+    position:relative !important;
 }
 
-body{
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.citySearch{
+#header h1{
+    font-size: 400%;
     text-align: center;
-    margin: 100px 0;
-
-}
-
-.citySearch[type="text"]{
-    height: 50px;
-    width: 600px;
-    background-color: aqua;
-    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
     font-weight: bold;
-    font-size: 20px;
-    border:none;
-    border-radius:2px ;
-}
-.citySearch[type="submit"]{
-    height: 50px;
-    width: 100px;
-    background-color: aqua;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    font-size: 20px;
-    border:none;
-    border-radius:2px ;
-}
-
-.display{
-    text-align: center;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
 }
