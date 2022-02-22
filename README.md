@@ -2,6 +2,8 @@
   Weather Dashboard
   
 ![Screenshot](https://github.com/Arcanaut/Weather-Dashboard/blob/main/assets/thumbnail.png)
+  Deployed: https://arcanaut.github.io/Weather-Dashboard/
+  
   
   ## Table of Contents
   * [Description](#Description)
@@ -13,7 +15,7 @@
 
 
   ## Description
-  An app that allows the user to view the forecast for a city, 
+  An app that allows the user to view the forecast for a city
   ## Features
   The user can look up a city to find its temperature, humidity, wind speed, and UV index. This is not just limited to the day the user searches for the city; the app also gives a five(5) day forecast.
 
@@ -22,6 +24,7 @@
 
   ## Installation 
   No installations required, only the ability to view in a browser (that isn't Internet Explorer.)
+  
 
   ## Usage
  Type in the search bar the name of the city followed by a comma with a state/country/region (e.g. Denton, Texas) and click on the magnifying glass icon.
