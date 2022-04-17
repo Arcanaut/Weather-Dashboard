@@ -4,7 +4,7 @@ const lang = 'en';
 //declare global associations with HTML elements
 const searchText = document.getElementById("search-text");
 const searchBtn = document.getElementById("search-btn");
-const clearHistory = document.getElementById("clr-history");
+const clearHistory = document.getElementById("clear-history");
 const displayCity = document.getElementById("display-city");
 const icon = document.getElementById("icon");
 const temp = document.getElementById("temp");
@@ -92,7 +92,8 @@ function startApp() {
                         //loop through each div with the class of forecast and create elements to display date, img, temp, wind, and humidity
                         for (i = 0; i < forecastCards.length; i++) {
 
-                            //pull date data for each forecast card and append a date element
+                            //pull date data for each forecast card and append a date element. Class attributes are assigned here because otherwise the cards
+                            //would need to be hard coded which would limit the number
                             forecastCards[i].innerHTML = "";
                             const index = i * 8 + 4;
                             const setDate = new Date(data.list[index].dt * 1000);
@@ -181,14 +182,15 @@ function startApp() {
             const historyItem = document.createElement("input");
             historyItem.setAttribute("type", "text");
             historyItem.setAttribute("readonly", true);
-            historyItem.setAttribute("class", "form-control d-block m-1 bg-secondary text-white text-capitalize text-center");
+            historyItem.setAttribute("class", "form-control d-block m-1 history-bg text-white text-capitalize text-center ");
             historyItem.setAttribute("value", searchHistory[i]);
 
             //when the user clicks one of their previous searches, pass the name of the previous search into the get weather function
             historyItem.addEventListener("click", function () {
                 getWeather(historyItem.value);
             })
-            history.append(historyItem);
+            //prepend adds the most recent city to the top of the search history
+            history.prepend(historyItem);
         }
     }
 
