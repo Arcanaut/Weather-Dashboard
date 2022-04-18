@@ -1,6 +1,7 @@
 html,body {
   background-color: darkgrey;
   color:white;
+  
 }
 
 #header{
@@ -34,4 +35,7 @@ html,body {
 .history-bg{
     background-color: #17a2b8 !important;
     cursor: pointer;
+}
+p{
+    text-decoration: underline;
 }

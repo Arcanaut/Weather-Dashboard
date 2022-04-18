@@ -24,7 +24,7 @@
   No installations required, only the ability to view in a browser (that isn't Internet Explorer.)
 
   ## Usage
- Type in the search bar the name of the city followed by a comma with a state/country/region (e.g. Denton, Texas) and click on the magnifying glass icon.
+ Type in the search bar the name of the city followed by a comma with a state/country/region (e.g. Denton, Texas) and then click on the magnifying glass icon. To clear search history, click on the 'clear history' button
  
 ## Credits
   Brendan Ahearn (me)
