@@ -11,8 +11,27 @@
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    background-clip: text;
-    text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
+    
+}
+
+.btn {
+    background-color:#dd6422;
+}
+
+#clear-history {
+    width: 100%;
+}
+
+.card-body,.card, .forecast {
+    background-color:#dd6422;
+}
+
+
+.history-bg{
+    background-color: #17a2b8 !important;
+    cursor: pointer;
+}
+
+.history-bg:hover{
+    background-color: #dd6422 !important;
 }
