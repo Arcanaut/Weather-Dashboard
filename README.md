@@ -1,7 +1,7 @@
  
   Weather Dashboard
   
-![Screenshot](https://github.com/Arcanaut/Weather-Dashboard/blob/main/assets/thumbnail.png)
+![Screenshot](https://github.com/Arcanaut/Weather-Dashboard/blob/main/assets/images/weather-dashboard-thumbnail.png)
   Deployed: https://arcanaut.github.io/Weather-Dashboard/
   
   
