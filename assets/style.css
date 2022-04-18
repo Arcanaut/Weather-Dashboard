@@ -1,8 +1,14 @@
+html,body {
+  background-color: darkgrey;
+  color:white;
+  
+}
+
 #header{
     background-size: cover;
     background-position-y: 40%;
     color:white;
-    background-color:rgb(83, 83, 83);
+    background-color:darkgrey;
     position:relative !important;
 }
 
@@ -26,12 +32,10 @@
     background-color:#dd6422;
 }
 
-
 .history-bg{
     background-color: #17a2b8 !important;
     cursor: pointer;
 }
-
-.history-bg:hover{
-    background-color: #dd6422 !important;
+p{
+    text-decoration: underline;
 }
