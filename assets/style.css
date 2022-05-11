@@ -23,7 +23,8 @@ ul {
     margin: 30px;
 }
 
-.current-weather, .weather-input {
+.current-weather,
+.weather-input {
     margin: 5px;
 }
 
