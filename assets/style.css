@@ -1,41 +1,44 @@
-html,body {
-  background-color: darkgrey;
-  color:white;
-  
+.section-title {
+    padding-bottom: 15px;
+    font-size: 50px;
 }
 
-#header{
-    background-size: cover;
-    background-position-y: 40%;
-    color:white;
-    background-color:darkgrey;
-    position:relative !important;
+.search {
+    margin: 10px;
 }
 
-#header h1{
-    font-size: 400%;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    
+ul {
+    list-style-type: none;
+}
+
+.forecast-header {
+    margin: 10px;
+}
+
+#forecast-cards {
+    justify-content: space-around;
+}
+
+.card-content {
+    margin: 30px;
+}
+
+.current-weather, .weather-input {
+    margin: 5px;
+}
+
+.weather-container {
+    margin: 150px auto;
+    background-color: #fff;
+    padding: 50px 50px;
+    border-radius: 10px;
+    opacity: 80%;
+}
+
+.card {
+    background-color: #80b1da;
 }
 
 .btn {
-    background-color:#dd6422;
-}
-
-#clear-history {
-    width: 100%;
-}
-
-.card-body,.card, .forecast {
-    background-color:#dd6422;
-}
-
-.history-bg{
-    background-color: #17a2b8 !important;
-    cursor: pointer;
-}
-p{
-    text-decoration: underline;
+    background-color: #80b1da;
 }
