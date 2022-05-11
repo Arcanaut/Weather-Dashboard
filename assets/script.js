@@ -122,7 +122,7 @@ var displayCityWeather = function(city, searchTerm) {
     newCityEl.className = "list-group-item";
     newCityEl.textContent = searchTerm;
     newCityEl.addEventListener("click", clickHandler);
-    previousCityEl.prependChild(newCityEl);
+    previousCityEl.appendChild(newCityEl);
 
      // for uv index 
      var lon = city.coord.lon; 
