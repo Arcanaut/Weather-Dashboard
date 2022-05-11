@@ -19,15 +19,14 @@
   ## Features
   The user can look up a city to find its temperature, humidity, wind speed, and UV index. This is not just limited to the day the user searches for the city; the app also gives a five(5) day forecast.
 
-  In addition there is a search history that allows users to switch between recent searches, and the ability to clear the history if needed.
-
+  In addition there is a search history that allows users to switch between recent searches
 
   ## Installation 
   No installations required, only the ability to view in a browser (that isn't Internet Explorer.)
   
 
   ## Usage
- Type in the search bar the name of the city followed by a comma with a state/country/region (e.g. Denton, Texas) and then click on the `search` button. To clear search history, click on the 'clear history' button
+ Type in the search bar the name of the city followed by a comma with a state/country/region (e.g. Denton, Texas) and then click on the `search` button. 
  
 ## Credits
   Brendan Ahearn (me)
